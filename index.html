@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <link href="./style.css" type="text/css" rel="stylesheet">
+        <body>
+            <main>
+            <header>
+            <nav class="topnav" id="portfolioTopnav">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#accomplishments">Accomplishments</a>
+            <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="openMenu()"><i class="fa fa-bars"></i></a>
+        </nav>
+            <h1>My portfolio example</h1>
+            </header>
+        <div id="homesection">
+            <p id="me">Mal Fituch</p>
+            <p id="desc">PhD researcher and blockchain legal advisor</p>
+        </div>
+        <!--About section starts-->
+        <div id="aboutsection">
+            <figure>
+            <a href="https://www.linkedin.com/in/malgorzata-fituch/" target="_blank"> 
+            <img class="pic" src="MyPic.jpg" height="200" width="200" alt="An office picture of a woman." title="M.Fituch"/>
+            </a>
+            </figure>
+            <br>
+            <h2 id="about" class="heading uppercase">About</h2>
+            <p id="textaboutme">I am a <strong>PhD student in the School of Law</strong> conducting research on the intersection of law, regulations and blockchain. I have been working as a <strong>legal counsel for start-ups</strong> and I am passionate about <em>developing innovations that bring benefits to the society in a sustainable and democratic manner</em>.</p>
+            <br>
+            <br>
+            <h3 id="skills">Skills</h3>
+            <h4>Research Skills</h4>
+            <ul class="list">
+                <li>Data collection and management</li>
+                <li>Planning and operating within tight deadlines</li>
+                <li>Comprehensive data analysis</li>
+            </ul>
+            <h4>Interpersonal Skills</h4>
+            <ul>
+                <li>Teamwork and good communication</li>
+                <li>Responsibility and flexibility</li>
+                <li>Good listener and fast learner</li>
+            </ul>
+            <h4>Technical Skills</h4>
+            <ul>
+                <li>Project management</li>
+                <li>Legal software</li>
+                <li>Blockchain technology</li>
+            </ul>
+        </div>
+        <!--Accomplishments section starts-->
+        <div id="accomplishmentssection">
+            <h2 id="accomplishments">Accomplishments</h2>
+            <table>
+                <tr>
+                    <th scope="col">Publications</th>
+                    <th scope="col">Awards</th>
+                    <th scope="col">Presentations</th>
+                </tr>
+                <tr>
+                    <td>TBD</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
+                </tr>
+            </table>
+        <h3>Coding Examples</h3>
+        <a href="quiz.html" target="_blank">Take the Portfolio Quiz!</a>
+        <br>
+        <br>
+        <br>    
+        </div>
+        <!--Contact section starts-->
+        <div id="contactsection">
+            <h2 id="contact" class="contactform">Contact</h2>
+            <a href="https://www.linkedin.com/in/malgorzata-fituch/" target="_blank">LinkedIn</a>
+            <br>
+            <br>
+            <form>
+                <label for="name">*Name:</label>
+                <br>
+                <input type="text" name="name" value="Mal Fituch" id="name" required>
+                <br>
+                <br>
+                <label for="email">*Email:</label>
+                <br>
+                <input type="text" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                <br>
+                <br>
+                <label for="mobile">Mobile (optional):</label>
+                <br>
+                <input id="mobile" type="tel" name="mobile" pattern="[0-9]{10,16}">
+                <br>
+                <br>
+                <label for="message">*Leave your message below:</label>
+                <br>
+                <textarea id="message" name="message" rows="5" cols="30" required>
+                </textarea>
+                <br>
+                <br>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+        </main>
+        <script src="nav.js">
+        </script>
+        </body>
+        <title>
+            Mal Fituch's PORTFOLIO
+        </title>
+    </head>
+</html>
